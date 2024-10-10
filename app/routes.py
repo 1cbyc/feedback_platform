@@ -56,23 +56,23 @@ def logout():
     flash('You have been logged out.')
     return redirect(url_for('index'))
 
-@app.route('/feedback', methods=['GET', 'POST'])
-@login_required
-def feedback():
-    form = FeedbackForm()
-    if form.validate_on_submit():
-        feedback = Feedback(user_id=current_user.id, feedback_text=form.feedback_text.data)
-        db.session.add(feedback)
-        db.session.commit()
-        flash('Your feedback has been submitted!', 'success')
-        return redirect(url_for('home'))
-    return render_template('feedback_form.html', form=form)
+# @app.route('/feedback', methods=['GET', 'POST'])
+# @login_required
+# def feedback():
+#     form = FeedbackForm()
+#     if form.validate_on_submit():
+#         feedback = Feedback(user_id=current_user.id, feedback_text=form.feedback_text.data)
+#         db.session.add(feedback)
+#         db.session.commit()
+#         flash('Your feedback has been submitted!', 'success')
+#         return redirect(url_for('home'))
+#     return render_template('feedback_form.html', form=form)
 
-@app.route('/dashboard')
-@login_required
-def dashboard():
-    feedbacks = Feedback.query.filter_by(user_id=current_user.id).all()
-    return render_template('dashboard.html', feedbacks=feedbacks)
+# @app.route('/dashboard')
+# @login_required
+# def dashboard():
+#     feedbacks = Feedback.query.filter_by(user_id=current_user.id).all()
+#     return render_template('dashboard.html', feedbacks=feedbacks)
 
 # @app.route('/logout')
 # @login_required
