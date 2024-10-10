@@ -52,11 +52,11 @@ something tells me i might have to become a ui designer for this, because there 
 
 2. Create Routes for Feedback Submission:
 
-    Build the views for submitting and managing feedback.
+    would build the views for submitting and managing feedback.
 
 3. Design User and Admin Dashboards:
 
-    to display user-submitted feedback on an admin dashboard.
+    to display user-submitted feedback on the admin dashboard.
 
 4. Frontend Enhancements:
 
