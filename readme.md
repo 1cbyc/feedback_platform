@@ -43,3 +43,25 @@ for feedback table:
 ## FUCKKKKK
 something tells me i might have to become a ui designer for this, because there is this guy i could've asked to make a ui for me, but he might stress me.
 
+## MY check list
+
+1. Set Up User Models and Authentication:
+
+    Create models for users and any other entities (e.g., feedback).
+    Implement user registration and login functionality using Flask-Login.
+
+2. Create Routes for Feedback Submission:
+
+    Build the views for submitting and managing feedback.
+
+Design User and Admin Dashboards:
+
+    Display user-submitted feedback on an admin dashboard.
+
+Frontend Enhancements:
+
+    Improve the UI using HTML, CSS, or a frontend framework like Bootstrap.
+
+Deployment Configuration:
+
+    Set up deployment on a platform like Railway, if you'd like to test the app live.
