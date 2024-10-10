@@ -17,6 +17,6 @@ i think i need to sleep fuckk! just lost $62k trading
 ## TECH STACK
 
 1. Front-End: HTML, CSS, JavaScript/Typescript (considering using the opportunity to master reactjs)
-2. Back-End: considering using Python (Flask), i am not using PHP because i intentionally didn't setup PHP on my third mac (this one),
-3. Database: MySQL, PostgreSQL, or MongoDB for storing feedback and user information
+2. Back-End: considering using Python (Flask), i am not using PHP because i intentionally didn't setup PHP on my third mac (this one), i use this one for ML shii
+3. Database:  MySQL, PostgreSQLfor storing feedback and user information
 4. Deployment: Platforms like Heroku, Railway, or AWS for hosting your application
