@@ -60,7 +60,7 @@ something tells me i might have to become a ui designer for this, because there 
 
 4. Frontend Enhancements:
 
-    Improve the UI using HTML, CSS, or a frontend framework like Bootstrap.
+    to improve the UI using tailwindcss.
 
 5. Deployment Configuration:
 
