@@ -8,8 +8,7 @@ from app.models import User, Feedback
 # from app.forms import RegistrationForm
 # from app.forms import RegistrationForm, FeedbackForm
 
-if __name__ == "__main__":
-    app.run(debug=True)
+÷
     
 @app.route('/')
 def home():
