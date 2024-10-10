@@ -38,3 +38,6 @@ for feedback table:
     rating (optional)
     created_at
     updated_at
+
+
+## FUCKKKKK
