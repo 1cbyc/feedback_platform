@@ -49,3 +49,4 @@ pylint.log
 docs/_build/
 
 /venv
+venv/
