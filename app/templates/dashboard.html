@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Your Feedback</h2>
+    <ul>
+        {% for feedback in feedbacks %}
+            <li>{{ feedback.feedback_text }} (Submitted on: {{ feedback.created_at }})</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
