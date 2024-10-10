@@ -47,8 +47,8 @@ something tells me i might have to become a ui designer for this, because there 
 
 1. Set Up User Models and Authentication:
 
-    Create models for users and any other entities (e.g., feedback).
-    Implement user registration and login functionality using Flask-Login.
+    creating models for users and any other entities (like for feedback).
+    then implementing user registration and login functionality using Flask-Login.
 
 2. Create Routes for Feedback Submission:
 
