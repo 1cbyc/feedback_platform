@@ -21,4 +21,20 @@ i think i need to sleep fuckk! just lost $62k trading
 3. Database: still thinking between MySQL or PostgreSQL for storing feedback and user information
 4. Deployment: I would use Railway to hosting the web app (yes, it is pr for Railway, fuck vercel, brimble and all)
 
-## 
+## THIS IS MY DB DESIGN (in case i forget again)
+
+for users Users Table:
+
+    id
+    username
+    email
+    password_hash
+
+Feedback Table:
+
+    id
+    user_id (foreign key referencing Users)
+    feedback_text
+    rating (optional)
+    created_at
+    updated_at
