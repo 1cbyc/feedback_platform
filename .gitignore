@@ -47,3 +47,5 @@ pylint.log
 
 # Sphinx documentation
 docs/_build/
+
+/venv
