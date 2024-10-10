@@ -23,14 +23,14 @@ i think i need to sleep fuckk! just lost $62k trading
 
 ## THIS IS MY DB DESIGN (in case i forget again)
 
-for users Users Table:
+for users table:
 
     id
     username
     email
     password_hash
 
-Feedback Table:
+for feedback table:
 
     id
     user_id (foreign key referencing Users)
