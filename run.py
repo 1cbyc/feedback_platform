@@ -22,10 +22,12 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 # then defining all my  models here (from users, feedback, and auth.)
-# Initialize Flask-Login
+# will init Flask-Login
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = 'login'  # The route name for login
+login_manager.login_view = 'login'  # The route name for login]]
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
