@@ -43,6 +43,8 @@ coverage.xml
 .python-version
 
 hide.c
+hi
+
 # Pylint
 pylint.log
 
