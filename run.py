@@ -7,3 +7,22 @@ def make_shell_context():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+
+# configs for the database
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///feedback.db'  # Use SQLite for development
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+# Initialize the database
+db = SQLAlchemy(app)
+
+# Define your models here (User, Feedback, etc.)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
