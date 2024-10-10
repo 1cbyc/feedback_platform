@@ -6,11 +6,11 @@ from app import app, db
 from app.forms import RegistrationForm, FeedbackForm
 from app.models import User, Feedback
 
-
 @app.route('/')
 def home():
     return render_template('base.html')
 
+#
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegistrationForm()
