@@ -8,5 +8,7 @@ app.config['SECRET_KEY'] = 'your_secret_key' # setting secret key for each sessi
 db = SQLAlchemy(app)
 # login_manager = LoginManager(app)
 # login_manager.login_view = 'login'  # will redirect to login page once the user is not authenticated
+login_manager = LoginManager()
+login_manager.init_app(app)
 
 from app import routes # then import the routes at the end to avoid circular imports
