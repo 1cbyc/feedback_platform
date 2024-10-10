@@ -13,7 +13,7 @@ def home():
 # for the register route
 @app.route('/register', methods=['GET', 'POST'])
 def register():
-        if current_user.is_authenticated:
+    if current_user.is_authenticated:
         return redirect(url_for('index'))
     
     form = RegistrationForm()
