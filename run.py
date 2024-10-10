@@ -15,10 +15,10 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 # configs for the database
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///feedback.db'  # Use SQLite for development
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///feedback.db'  # will use SQLite for development at this point
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-# Initialize the database
+# then initialize the database
 db = SQLAlchemy(app)
 
 # Define your models here (User, Feedback, etc.)
