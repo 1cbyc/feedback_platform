@@ -54,14 +54,14 @@ something tells me i might have to become a ui designer for this, because there 
 
     Build the views for submitting and managing feedback.
 
-Design User and Admin Dashboards:
+3. Design User and Admin Dashboards:
 
     Display user-submitted feedback on an admin dashboard.
 
-Frontend Enhancements:
+4. Frontend Enhancements:
 
     Improve the UI using HTML, CSS, or a frontend framework like Bootstrap.
 
-Deployment Configuration:
+5. Deployment Configuration:
 
-    Set up deployment on a platform like Railway, if you'd like to test the app live.
+    to set up deployment on a platform like Railway, if you'd like to test the app live.
