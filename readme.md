@@ -64,4 +64,4 @@ something tells me i might have to become a ui designer for this, because there 
 
 5. Deployment Configuration:
 
-    to set up deployment on a platform like Railway, if you'd like to test the app live.
+    to set up deployment on Railway
