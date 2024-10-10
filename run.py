@@ -21,7 +21,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # then initialize the database
 db = SQLAlchemy(app)
 
-# Define your models here (User, Feedback, etc.)
+# then defining all my  models here (from users, feedback, and auth.)
 
 if __name__ == '__main__':
     app.run(debug=True)
