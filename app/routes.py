@@ -4,9 +4,6 @@ from app import app, db
 from app.forms import RegistrationForm, LoginForm
 from app.models import User, Feedback
 # from flask_login import login_user, current_user, logout_user, login_required, current_user
-# from models import User
-# from app.forms import RegistrationForm
-# from app.forms import RegistrationForm, FeedbackForm
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
