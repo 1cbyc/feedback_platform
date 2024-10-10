@@ -17,6 +17,6 @@ i think i need to sleep fuckk! just lost $62k trading
 ## TECH STACK
 
 1. Front-End: HTML, CSS, JavaScript/Typescript (considering using the opportunity to master reactjs)
-2. Back-End: Python (Flask or Django), Node.js, or PHP
+2. Back-End: considering using Python (Flask), Node.js, or PHP
 3. Database: MySQL, PostgreSQL, or MongoDB for storing feedback and user information
-Deployment: Platforms like Heroku, Railway, or AWS for hosting your application
+4. Deployment: Platforms like Heroku, Railway, or AWS for hosting your application
