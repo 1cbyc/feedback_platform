@@ -9,4 +9,4 @@ db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'  # will redirect to login page once the user is not authenticated
 
-from app import routes  # Import routes at the end to avoid circular imports
+from app import routes  # then import the routes at the end to avoid circular imports
