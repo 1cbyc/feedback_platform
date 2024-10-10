@@ -74,10 +74,10 @@ def dashboard():
     feedbacks = Feedback.query.filter_by(user_id=current_user.id).all()
     return render_template('dashboard.html', feedbacks=feedbacks)
 
-@app.route('/logout')
-@login_required
-def logout():
-    logout_user()
-    return redirect(url_for('home'))
+# @app.route('/logout')
+# @login_required
+# def logout():
+#     logout_user()
+#     return redirect(url_for('home'))
 
 # will add other routes for login and any additional features here
