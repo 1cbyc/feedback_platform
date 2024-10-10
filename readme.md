@@ -41,4 +41,4 @@ for feedback table:
 
 
 ## FUCKKKKK
-something tells me i might have to be
+something tells me i might have to become a ui designer for this, because 
