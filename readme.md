@@ -13,3 +13,10 @@ i think i need to sleep fuckk! just lost $62k trading
 4. Admin Dashboard: a small backend interface for admins (esp myself) to manage feedback, analyze trends, and generate reports.
 5. Notifications: an email and also in-app notifications for feedback responses or important updates.
 5. Data Export: well, considering options to download feedback data in formats like CSV or Excel.
+
+## TECH STACK
+
+1. Front-End: HTML, CSS, JavaScript 
+Back-End: Python (Flask or Django), Node.js, or PHP
+Database: MySQL, PostgreSQL, or MongoDB for storing feedback and user information
+Deployment: Platforms like Heroku, Railway, or AWS for hosting your application
