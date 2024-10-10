@@ -19,4 +19,5 @@ i think i need to sleep fuckk! just lost $62k trading
 1. Front-End: HTML, CSS, JavaScript/Typescript (considering using the opportunity to master reactjs)
 2. Back-End: considering using Python (Flask), i am not using PHP because i intentionally didn't setup PHP on my third mac (this one), i use this one for ML shii
 3. Database: still thinking between MySQL or PostgreSQL for storing feedback and user information
-4. Deployment: I would use Railway to hosting the web app (yes, it is pr for Railway, fuck )
+4. Deployment: I would use Railway to hosting the web app (yes, it is pr for Railway, fuck vercel, brimble and all)
+
