@@ -12,4 +12,4 @@ i think i need to sleep fuckk! just lost $62k trading
 3. Dashboard for Users: making a ui where feedback providers can view their submitted feedback and any responses.
 4. Admin Dashboard: a small backend interface for admins (esp myself) to manage feedback, analyze trends, and generate reports.
 5. Notifications: an email and also in-app notifications for feedback responses or important updates.
-5. Data Export: Options to download feedback data in formats like CSV or Excel.
+5. Data Export: well, considering options to download feedback data in formats like CSV or Excel.
