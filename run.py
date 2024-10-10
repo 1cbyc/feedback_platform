@@ -9,6 +9,8 @@
 #     app.run(debug=True)
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager
+from models import User
 
 app = Flask(__name__)
 
