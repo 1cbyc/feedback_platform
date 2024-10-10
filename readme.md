@@ -56,11 +56,11 @@ something tells me i might have to become a ui designer for this, because there 
 
 3. Design User and Admin Dashboards:
 
-    Display user-submitted feedback on an admin dashboard.
+    to display user-submitted feedback on an admin dashboard.
 
 4. Frontend Enhancements:
 
-    to improve the UI using tailwindcss.
+    to improve the UI using tailwindcss and react.
 
 5. Deployment Configuration:
 
