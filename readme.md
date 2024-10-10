@@ -21,3 +21,4 @@ i think i need to sleep fuckk! just lost $62k trading
 3. Database: still thinking between MySQL or PostgreSQL for storing feedback and user information
 4. Deployment: I would use Railway to hosting the web app (yes, it is pr for Railway, fuck vercel, brimble and all)
 
+## 
