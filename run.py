@@ -25,7 +25,7 @@ db = SQLAlchemy(app)
 # will init Flask-Login
 login_manager = LoginManager()
 login_manager.init_app(app)
-login_manager.login_view = 'login'  # The route name for login
+login_manager.login_view = 'login'  # the route name for login
 
 @login_manager.user_loader
 def load_user(user_id):
