@@ -41,4 +41,5 @@ for feedback table:
 
 
 ## FUCKKKKK
-something tells me i might have to become a ui designer for this, because there is this guy i could've asked to make a ui for me, but 
+something tells me i might have to become a ui designer for this, because there is this guy i could've asked to make a ui for me, but he might stress me.
+
